@@ -13,7 +13,7 @@ namespace AspnetCoreWithBugs.Migrations
                     ProductId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(maxLength: 35, nullable: false),
-                    Price = table.Column<string>(nullable: false),
+                    Price = table.Column<double>(nullable: false),
                     Description = table.Column<string>(nullable: false)
                 },
                 constraints: table =>

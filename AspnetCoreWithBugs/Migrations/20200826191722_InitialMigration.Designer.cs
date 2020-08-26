@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AspnetCoreWithBugs.Migrations
 {
     [DbContext(typeof(ProductContext))]
-    [Migration("20200826191448_CurrencyDouble")]
-    partial class CurrencyDouble
+    [Migration("20200826191722_InitialMigration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
